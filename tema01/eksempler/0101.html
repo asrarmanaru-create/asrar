@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eksempel 1</title>
+  <title>Skjemaeksempel</title>
 </head>
 <body>
-  <h3>Eksempel 1</h3>
-    
-  <form method="post" action="0101.php" id="eksempel1" name="eksempel1">
-    Fornavn <input type="text" id="fornavn" name="fornavn" required /> <br />
-    Etternavn <input type="text" id="etternavn" name="etternavn" required /> <br />
-    <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
-    <input type="reset" value="Nullstill" name="nullstill" id="nullstill" /> <br />
+  <h2>Fyll inn navn</h2>
+  <form action="mottak.php" method="post">
+    <label for="fornavn">Fornavn:</label>
+    <input type="text" id="fornavn" name="fornavn" required><br><br>
+
+    <label for="etternavn">Etternavn:</label>
+    <input type="text" id="etternavn" name="etternavn" required><br><br>
+
+    <input type="submit" value="Send">
   </form>
 </body>
 </html>
