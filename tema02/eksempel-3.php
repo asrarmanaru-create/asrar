@@ -11,11 +11,11 @@
     }
   else if ($svar == "ja")  
     {
-      print("Du har svart j p&aring; sp&oslash;rsm&aring;let om du er student ");
+      print("Du har svart ja p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
   else if ($svar == "nei") 
     {
-      print("Du har svart n p&aring; sp&oslash;rsm&aring;let om du er student ");
+      print("Du har svart nei p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
   else  
     {
