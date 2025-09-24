@@ -9,17 +9,17 @@
     {
       print("Du har ikke svart p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
-  else if ($svar == "j")  
+  else if ($svar == "ja")  
     {
       print("Du har svart j p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
-  else if ($svar == "n") 
+  else if ($svar == "nei") 
     {
       print("Du har svart n p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
   else  
     {
-      print("Du har ikke svart j eller n p&aring; sp&oslash;rsm&aring;let om du er student ");
+      print("Du har ikke svart ja eller nei p&aring; sp&oslash;rsm&aring;let om du er student ");
     }
 
 ?>
