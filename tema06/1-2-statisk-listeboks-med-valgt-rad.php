@@ -10,8 +10,8 @@
   Ukedag
   <select name="ukedag" id="ukedag" >
     <option value="mandag">mandag</option>
-    <option value="tirsdag">tirsdag</option>
-    <option value="onsdag" selected>onsdag</option>
+    <option value="tirsdag" selected>tirsdag</option>
+    <option value="onsdag">onsdag</option>
     <option value="torsdag">torsdag</option>
     <option value="fredag">fredag</option>
   </select>  <br />
